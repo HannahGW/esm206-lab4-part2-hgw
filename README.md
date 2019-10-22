@@ -1,1 +1,10 @@
-# esm206-lab4-part2-hgw
+# My awesome ReadMe!
+
+-Some
+-bullet
+-points
+
+
+and other **useful information**!
+
+*Yay*
