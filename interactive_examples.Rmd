@@ -5,7 +5,7 @@ date: "10/22/2019"
 output: html_document
 ---
 
-```{r setup, include=FALSE, echo = FALSE}
+```{r setup, echo = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -25,7 +25,7 @@ library(DT)
 ### A. Interactive graph of iris dimensions
 
 Using Edgar Anderson's famous 'iris' dataset
-```{r, echo = FALSE}
+```{r, echo = FALSE, eval = FALSE}
 
 iris_graph <- ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) +
   geom_point(aes(size = Sepal.Width,
@@ -39,7 +39,6 @@ iris_graph <- ggplot(data = iris, aes(x = Petal.Width, y = Petal.Length)) +
 iris_graph
 
 ggplotly(iris_graph)
-
 
 ```
 
